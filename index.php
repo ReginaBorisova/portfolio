@@ -52,19 +52,21 @@
 //   var_dump($_GET);
 //   echo 'wtf ';
 //   echo $_GET['1'];
-//       $who ="";
-//       $title="";
+
 
        function tellTitle($who)
        {
 
+
            if ($who == 1) {
-               return 'Junior Web Developer';
+               return 'Junior ';
            } else if ($who == 2) {
-               return 'Web Developer ';
+               return ' ';
            }
        }
-      echo  tellTitle(2);
+           echo tellTitle(2).'Web Developer';
+
+
        ?>
     </h2>
     <div class="icons">
