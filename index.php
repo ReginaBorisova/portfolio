@@ -48,7 +48,17 @@
     </h1>
     
     <h2 id="sm-heading">
-       <?php  $title='Junior'; echo $title.' Web Developer' ?>
+       <?php
+       $who=2;
+       if ($who==1){
+           $title='Junior';
+       }
+       else if ($who==2) {
+           $title='';
+       }
+//       $title='Junior';
+       echo $title.' Web Developer';
+       ?>
     </h2>
     <div class="icons">
        <a href="#">
