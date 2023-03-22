@@ -49,14 +49,17 @@
     
     <h2 id="sm-heading">
        <?php
+//   var_dump($_GET);
+//   echo 'wtf ';
+//   echo $_GET['1'];
        $who=2;
-       if ($who==1){
+       if ($_GET['who']==1){
            $title='Junior';
        }
-       else if ($who==2) {
+       else if ($_GET['who']==2) {
            $title='';
        }
-//       $title='Junior';
+//       $title=$_GET['who'];
        echo $title.' Web Developer';
        ?>
     </h2>
