@@ -51,7 +51,7 @@
        <?php
 //   var_dump($_GET);
 //   echo 'wtf ';
-//   echo $_GET['1'];
+//   echo $_GET['who'];
 
 
        function tellTitle($who)
@@ -64,7 +64,10 @@
                return ' ';
            }
        }
-           echo tellTitle(2).'Web Developer';
+       
+       $who = $_GET['who'];
+       $title=tellTitle($who);
+       echo $title.' Web Developer';
 
 
        ?>
