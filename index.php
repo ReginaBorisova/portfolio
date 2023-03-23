@@ -49,25 +49,36 @@
     
     <h2 id="sm-heading">
        <?php
+
 //   var_dump($_GET);
 //   echo 'wtf ';
-//   echo $_GET['who'];
-
-
-       function tellTitle($who)
-       {
-
-
-           if ($who == 1) {
-               return 'Junior ';
-           } else if ($who == 2) {
-               return ' ';
+       if(isset($_GET['who'])){
+           echo $_GET['who'];
+           if(empty($_GET['who'])){
+               echo 'Junior Web Developer';
+           } else {
+               echo 'Web Developer';
            }
+       } else {
+           echo 'Junior Web Developer';
        }
-       
-       $who = $_GET['who'];
-       $title=tellTitle($who);
-       echo $title.' Web Developer';
+
+
+//       function tellTitle($who)
+//       {
+//
+//
+//           if ($who == 1) {
+//               return 'Junior ';
+//           } else if ($who == 2) {
+//               return ' ';
+//           }
+//       }
+
+//
+//       $who = $_GET['who'];
+//       $title=tellTitle($who);
+//       echo $title.' Web Developer';
 
 
        ?>
