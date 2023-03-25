@@ -52,33 +52,38 @@
 
 //   var_dump($_GET);
 //   echo 'wtf ';
-       if(isset($_GET['who'])){
-           echo $_GET['who'];
-           if(empty($_GET['who'])){
-               echo 'Junior Web Developer';
-           } else {
-               echo 'Web Developer';
+       function tellTitle($who) {
+           if ($who == 2) {
+               return '';
            }
-       } else {
-           echo 'Junior Web Developer';
+           $title = 'Junior ';
+           if (empty($who)) {
+               return $title;
+           }
+           return $title . 'Web Developer';
        }
 
+       $title = tellTitle($_GET['who']);
+       echo $title . ' Web Developer';
 
 //       function tellTitle($who)
 //       {
-//
-//
 //           if ($who == 1) {
 //               return 'Junior ';
 //           } else if ($who == 2) {
-//               return ' ';
+//               return '';
+//           } else {
+//               $who = isset($_GET['who']) ? $_GET['who'] : '';
+//               if (empty($who)) {
+//                   return 'Junior';
+//               } else {
+//                   return 'Junior ';
+//               }
 //           }
 //       }
-
 //
-//       $who = $_GET['who'];
-//       $title=tellTitle($who);
-//       echo $title.' Web Developer';
+//       $title = tellTitle($_GET['who']);
+//       echo $title . ' Web Developer';
 
 
        ?>
