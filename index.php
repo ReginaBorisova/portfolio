@@ -57,7 +57,7 @@
 
 
           //Third  Task
-         function tellTitle($who) {
+       function tellTitle($who) {
            if ($who == 2) {
                return '';
            }
@@ -65,11 +65,16 @@
            if (empty($who)) {
                return $title;
            }
-           return $title . 'Web Developer';
+           return $title;
        }
 
-       $title = tellTitle($_GET['who']);
-       echo $title . ' Web Developer';
+       $whoParam = 1;
+       if (array_key_exists("who", $_GET)) {
+           $whoParam = $_GET["who"];
+       }
+
+       $title = tellTitle($whoParam);
+       echo $title.' Web Developer';
 
 
                                       //Second task
