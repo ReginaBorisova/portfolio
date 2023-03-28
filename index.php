@@ -9,6 +9,8 @@
     <title>My Portfolio</title>
 </head>
 <body>
+
+
    <header>
    <div class="menu-btn">
     <div class="btn-line"></div>
@@ -50,8 +52,8 @@
     <h2 id="sm-heading">
        <?php
 
-//   var_dump($_GET);
-//   echo 'wtf ';
+
+
 
 
           //Third  Task
@@ -87,19 +89,24 @@
 
        ?>
     </h2>
-    <div class="icons">
+    <div class="icons"> <?php
+        $icons=array('twitter', 'facebook','linkedin','github');
+        foreach ($icons as $icon) {
+            ?>
+
        <a href="#">
-        <i class="fab fa-twitter fa-2x"></i>
+        <i class="fab fa-<?php echo $icon ?> fa-2x"></i>
        </a>
-       <a href="#">
-        <i class="fab fa-facebook fa-2x"></i>
-       </a>
-       <a href="#">
-        <i class="fab fa-linkedin fa-2x"></i>
-       </a>
-       <a href="#">
-        <i class="fab fa-github fa-2x"></i>
-       </a>
+<!--       <a href="#">-->
+<!--        <i class="fab fa----><?php //echo $icon ?><!-- fa-2x"></i>-->
+<!--       </a>-->
+<!--       <a href="#">-->
+<!--        <i class="fab fa----><?php //echo $icon ?><!-- fa-2x"></i>-->
+<!--       </a>-->
+<!--       <a href="#">-->
+<!--        <i class="fab fa---><?php //echo $icon ?><!-- fa-2x"></i>-->
+           <?php } ?>
+
     </div>
    </main>
    <script src="js/main.js"></script>
