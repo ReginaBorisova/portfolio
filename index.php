@@ -74,7 +74,12 @@
        }
 
        $title = tellTitle($whoParam);
-       echo $title.' Web Developer';
+       if (empty($title)){
+           echo " Web Developer";
+       }else {
+           $title.' Web Developer';
+       }
+
 
 
                                       //Second task
