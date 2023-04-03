@@ -52,50 +52,26 @@
     <h2 id="sm-heading">
        <?php
 
-       function tellTitle($who){
-           
-           switch($who) {
+       function tellTitle($titleType) {
+           switch($titleType) {
                case 2:
-                   $title = ' ';
+                   $title = '';
                    break;
                default:
-                   $title = 'Junior';
+                   $title = 'Junior ';
            }
+
+           if (!empty($titleType)) {
+               $title .= 'Web Developer';
+           } else {
+               $title .= 'Web Developer';
+           }
+
            return $title;
-
        }
-       $who=1;
-       echo tellTitle($who).' Web Developer';
 
-
-
-
-
-          //#issue 2
-//       function tellTitle($who) {
-//           if ($who == 2) {
-//               return '';
-//           }
-//           $title = 'Junior ';
-//           if (empty($who)) {
-//               return $title;
-//           }
-//           return $title;
-//       }
-//
-//       $whoParam = 1;
-//       if (array_key_exists("who", $_GET)) {
-//           $whoParam = $_GET["who"];
-//       }
-//
-//       $title = tellTitle($whoParam);
-//       if (empty($title)){
-//           echo " Web Developer";
-//       }else {
-//           $title.' Web Developer';
-//       }
-
-
+       $whoParam = array_key_exists("who", $_GET) ? $_GET["who"] : 1;
+       echo tellTitle($whoParam);
 
                                       //Second task
 
