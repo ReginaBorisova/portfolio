@@ -61,13 +61,13 @@
                    $title = 'Junior ';
            }
 
-           if (!empty($titleType)) {
-               $title .= 'Web Developer';
-           } else {
-               $title .= 'Web Developer';
-           }
+//           if (!empty($titleType)) {
+//               $title .= 'Web Developer';
+//           } else {
+//               $title .= 'Web Developer';
+//           }
 
-           return $title;
+           return $title.' Web Developer';
        }
 
        $whoParam = array_key_exists("who", $_GET) ? $_GET["who"] : 1;
