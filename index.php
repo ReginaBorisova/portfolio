@@ -52,7 +52,7 @@
     <h2 id="sm-heading">
        <?php
 
-       function tellTitle($titleType) {
+       function tellTitle(int $titleType) : string {
            switch($titleType) {
                case 2:
                    $title = '';
@@ -72,6 +72,7 @@
 
        $whoParam = array_key_exists("who", $_GET) ? $_GET["who"] : 1;
        echo tellTitle($whoParam);
+
 
                                       //Second task
 
