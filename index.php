@@ -1,4 +1,14 @@
 <!DOCTYPE html>
+<?php
+
+     $name  = 'Regina';
+     $lname = 'Borisova';
+     $h     = 'Home';
+     $ab    = 'About Me';
+     $mw    = 'My Work';
+     $rm    ='How to reach me';
+     $p     = 'Portfolio';
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,16 +37,16 @@
     </div>
     <ul class="menu-nav">
     <li class="nav-item current">
-        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html" class="nav-link"> <?=  $h; ?></a>
     </li>
     <li class="nav-item">
-        <a href="about.html" class="nav-link">About Me</a>
+        <a href="about.html" class="nav-link"><?=  $ab; ?></a>
     </li>
     <li class="nav-item">
-        <a href="work.html" class="nav-link">My Work</a>
+        <a href="work.html" class="nav-link"><?=  $mw; ?></a>
     </li>
     <li class="nav-item">
-        <a href="contact.html" class="nav-link">How to reach Me</a>
+        <a href="contact.html" class="nav-link"><?=  $rm; ?></a>
     </li>
 
     </ul>
@@ -46,7 +56,7 @@
 
    <main id="home">
     <h1 class="lg-heading">
-        Regina <span class="text-secondary">Borisova </span>
+        <?=  $name; ?> <span class="text-secondary"><?=  $lname; ?> </span>
     </h1>
     
     <h2 id="sm-heading">
