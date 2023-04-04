@@ -50,16 +50,18 @@
     }
 
 
-       $a= 8;
-       $b = 2;
+     $test=array('a' => 2, 'b' => 5);
 
-       echo "The minimum of $a and $b is: ".minim($a, $b)."<br>";
-       echo "The maximum of $a and $b is: ".maximum($a, $b)."<br>";
-       echo "The sum of $a and $b is: ".summ($a, $b)."<br>";
-       echo "The difference between $a and $b is: ".difference($a, $b)."<br>";
-       echo "The multiplication of $a and $b is: ".product($a, $b)."<br>";
-       echo "The division of $a and $b is: ".division($a, $b)."<br>";
-       echo "The modulo of $a and $b is: ".modulo($a, $b)."<br>";
+       foreach($test as $key=> $value) {
+
+           echo "The minimum of {$test['a']} and {$test['b']} is: " . minim($test['a'], $test['b']) . "<br>";
+           echo "The maximum of {$test['a']} and {$test['b']} is: " . maximum($test['a'], $test['b']) . "<br>";
+           echo "The sum of {$test['a']} and {$test['b']} is: " . summ($test['a'], $test['b']) . "<br>";
+           echo "The difference between {$test['a']} and {$test['b']} is: " . difference($test['a'], $test['b']) . "<br>";
+           echo "The multiplication of {$test['a']} and {$test['b']} is: " . product($test['a'], $test['b']) . "<br>";
+           echo "The division of {$test['a']} and {$test['b']} is: " . division($test['a'], $test['b']) . "<br>";
+           echo "The modulo of {$test['a']} and {$test['b']} is: " . modulo($test['a'], $test['b']) . "<br>";
+       }
 
 
 
