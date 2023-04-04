@@ -37,16 +37,16 @@
     </div>
     <ul class="menu-nav">
     <li class="nav-item current">
-        <a href="index.html" class="nav-link"> <?=  $h; ?></a>
+        <a href="index.php" class="nav-link"> <?=  $h; ?></a>
     </li>
     <li class="nav-item">
-        <a href="about.html" class="nav-link"><?=  $ab; ?></a>
+        <a href="about.php" class="nav-link"><?=  $ab; ?></a>
     </li>
     <li class="nav-item">
-        <a href="work.html" class="nav-link"><?=  $mw; ?></a>
+        <a href="work.php" class="nav-link"><?=  $mw; ?></a>
     </li>
     <li class="nav-item">
-        <a href="contact.html" class="nav-link"><?=  $rm; ?></a>
+        <a href="contact.php" class="nav-link"><?=  $rm; ?></a>
     </li>
 
     </ul>

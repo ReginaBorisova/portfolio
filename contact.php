@@ -28,10 +28,10 @@
         <a href="index.php" class="nav-link">Home</a>
     </li>
     <li class="nav-item ">
-        <a href="about.html" class="nav-link">About Me</a>
+        <a href="about.php" class="nav-link">About Me</a>
     </li>
     <li class="nav-item">
-        <a href="work.html" class="nav-link">My Work</a>
+        <a href="work.php" class="nav-link">My Work</a>
     </li>
     <li class="nav-item current">
         <a href="contact.html" class="nav-link">How to reach Me</a>
