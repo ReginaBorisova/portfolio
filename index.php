@@ -102,21 +102,21 @@
        ?>
     </h2>
     <div class="icons"> <?php
-        $icons=array('twitter', 'facebook','linkedin','github');
+        $icons=array(
+                array("name" => "linkedin",
+                      "link" => "https://www.linkedin.com/in/regina-borisova-11777a24a/"),
+                array("name" => "facebook",
+                      "link" => "https://www.facebook.com/lina.gusman.790"),
+                array("name" => "github",
+                      "link" => "https://github.com/ReginaBorisova")
+        );
         foreach ($icons as $icon) {
             ?>
 
-       <a href="#">
-        <i class="fab fa-<?php echo $icon ?> fa-2x"></i>
+       <a href="<?php echo $icon['link']; ?>">
+        <i class="fab fa-<?php echo $icon['name']; ?> fa-2x"></i>
        </a>
-<!--       <a href="#">-->
-<!--        <i class="fab fa----><?php //echo $icon ?><!-- fa-2x"></i>-->
-<!--       </a>-->
-<!--       <a href="#">-->
-<!--        <i class="fab fa----><?php //echo $icon ?><!-- fa-2x"></i>-->
-<!--       </a>-->
-<!--       <a href="#">-->
-<!--        <i class="fab fa---><?php //echo $icon ?><!-- fa-2x"></i>-->
+
            <?php } ?>
 
     </div>
