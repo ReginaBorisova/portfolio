@@ -71,33 +71,12 @@
                    $title = 'Junior ';
            }
 
-//           if (!empty($titleType)) {
-//               $title .= 'Web Developer';
-//           } else {
-//               $title .= 'Web Developer';
-//           }
 
            return $title.' Web Developer';
        }
 
        $whoParam = array_key_exists("who", $_GET) ? $_GET["who"] : 1;
        echo tellTitle($whoParam);
-
-
-                                      //Second task
-
-//       function tellTitle($who)
-//       {
-//           if ($who == 1) {
-//               return 'Junior ';
-//           } else if ($who == 2){
-//               return '';
-//           }
-//       }
-//
-//       $title = tellTitle($_GET['who']);
-//       echo $title . ' Web Developer';
-
 
        ?>
     </h2>
