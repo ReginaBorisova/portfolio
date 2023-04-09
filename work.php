@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
     <script src="https://kit.fontawesome.com/7f1d61da1e.js" crossorigin="anonymous"></script>
     <title>View My Work</title>
 </head>
@@ -19,7 +19,7 @@
 
    <nav class="menu">
     <div class="menu-branding">
-     <div class="portrait"><img src="WebPagePic.jpg" style="   width: 250px;
+     <div class="portrait"><img src="/img/WebPagePic.jpg" style="   width: 250px;
   height: 250px;
   margin: auto;
   border-radius: 50%;"/></div>
@@ -54,7 +54,7 @@
     <div class="projects">
        <div class="item">
         <a href="#!">
-            <img src="img/projects/project1.jpg" alt="Project Pic" style="width:300px; height:250px;">
+            <img src="/img/projects/project1.jpg" alt="Project Pic" style="width:300px; height:250px;">
         </a>
         <a href="#" class="btn-light">
             <i class="fas fa-eye"></i>Project
@@ -66,7 +66,7 @@
 
        <div class="item">
         <a href="#!">
-            <img src="img/projects/project2.jpg" alt="Project Pic"style="width:300px; height:250px;">
+            <img src="/img/projects/project2.jpg" alt="Project Pic"style="width:300px; height:250px;">
         </a>
         <a href="#" class="btn-light">
             <i class="fas fa-eye"></i>Project
@@ -78,7 +78,7 @@
 
        <div class="item">
         <a href="#!">
-            <img src="img/projects/project3.jpg" alt="Project Pic"style="width:300px; height:250px;">
+            <img src="/img/projects/project3.jpg" alt="Project Pic"style="width:300px; height:250px;">
         </a>
         <a href="#" class="btn-light">
             <i class="fas fa-eye"></i>Project
@@ -90,7 +90,7 @@
 
        <div class="item">
         <a href="#!">
-            <img src="img/projects/project4.jpg" alt="Project Pic"style="width:300px; height:250px;">
+            <img src="/img/projects/project4.jpg" alt="Project Pic"style="width:300px; height:250px;">
         </a>
         <a href="#" class="btn-light">
             <i class="fas fa-eye"></i>Project
@@ -102,7 +102,7 @@
 
        <div class="item">
         <a href="#!">
-            <img src="img/projects/project5.jpg" alt="Project Pic"style="width:300px; height:250px;">
+            <img src="/img/projects/project5.jpg" alt="Project Pic"style="width:300px; height:250px;">
         </a>
         <a href="#" class="btn-light">
             <i class="fas fa-eye"></i>Project
@@ -115,6 +115,6 @@
     </div>   
    </main>
    <footer id="main-footer"> Copyright &copy;2023</footer>
-   <script src="js/main.js"></script>
+   <script src="/js/main.js"></script>
 </body>
 </html>

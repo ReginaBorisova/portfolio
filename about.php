@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
     <script src="https://kit.fontawesome.com/7f1d61da1e.js" crossorigin="anonymous"></script>
     <title>About Me</title>
 </head>
@@ -17,7 +17,7 @@
    </div><?php include 'variables.php' ?>
    <nav class="menu">
     <div class="menu-branding">
-     <div class="portrait"><img src="WebPagePic.jpg" style="   width: 250px;
+     <div class="portrait"><img src="/img/WebPagePic.jpg" style="   width: 250px;
   height: 250px;
   margin: auto;
   border-radius: 50%;"/></div>
@@ -50,7 +50,7 @@
         Let me tell you a few things...
     </h2>
     <div class="about-info">
-    <img  src="WebPagePic.jpg" ALT="Regina's Picture" class="bio-image" style=" width: 250px;
+    <img src="img/WebPagePic.jpg" ALT="Regina's Picture" class="bio-image" style=" width: 250px;
     height: 250px;">
     <div class="bio">
         <h3 style="color:yellow;">BIO</h3>
@@ -79,6 +79,6 @@
     
    </main>
    <footer id="main-footer"> Copyright &copy;2023</footer>
-   <script src="js/main.js"></script>
+   <script src="/js/main.js"></script>
 </body>
 </html>

@@ -251,7 +251,7 @@ body {
 
   }
   .menu-branding .portrait {
-    background: url(../WebPagePic.jpg);
+    background: url(../img/WebPagePic.jpg);
     height: 150px;
     border:none;
   }
@@ -403,7 +403,12 @@ body {
   background: #454444 ;
   height: 50px;
  }
-
+img.portrait#mainportrait {
+    width: 250px ;
+    height: 250px;   margin: auto;
+    border-radius: 50% ;
+    border: yellow 3px solid ;
+}
 
 
 
