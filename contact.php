@@ -13,8 +13,8 @@
    <div class="menu-btn">
     <div class="btn-line"></div>
     <div class="btn-line"></div>
-    <div class="btn-line"></div> 
-   </div>
+    <div class="btn-line"></div>
+   </div><?php include 'variables.php'?>
 
    <nav class="menu">
     <div class="menu-branding">
@@ -24,18 +24,16 @@
   border-radius: 50%;"/></div>
     </div>
     <ul class="menu-nav">
-    <li class="nav-item ">
-        <a href="index.php" class="nav-link">Home</a>
-    </li>
-    <li class="nav-item ">
-        <a href="about.php" class="nav-link">About Me</a>
-    </li>
-    <li class="nav-item">
-        <a href="work.php" class="nav-link">My Work</a>
-    </li>
-    <li class="nav-item current">
-        <a href="contact.html" class="nav-link">How to reach Me</a>
-    </li>
+        <?php
+        foreach ($menuitems as $url => $label){
+
+
+        ?>
+        <li class="nav-item ">
+            <a href="<?=  $url ?>" class="nav-link"><?=    $label   ?></a>
+            <?php } ?>
+        </li>
+
 
     </ul>
 
@@ -52,15 +50,15 @@
     </h2>
     <div class="boxes">
         <div>
-            <span class="text-secondary">Email</span>regina.borisovaus@gmail.com
+            <span class="text-secondary"><?=   $email    ?></span>regina.borisovaus@gmail.com
         </div>
 
         <div>
-            <span class="text-secondary">Phone</span>(718)-517-16-54
+            <span class="text-secondary"><?=   $phone    ?></span>(718)-517-16-54
         </div>
 
         <div>
-            <span class="text-secondary">Adress</span> Monroe, Connecticut
+            <span class="text-secondary"><?=   $address    ?></span> Monroe, Connecticut
         </div>
    
     </div>

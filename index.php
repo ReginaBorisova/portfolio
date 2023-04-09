@@ -1,14 +1,5 @@
 <!DOCTYPE html>
-<?php
-
-     $name  = 'Regina';
-     $lname = 'Borisova';
-     $h     = 'Home';
-     $ab    = 'About Me';
-     $mw    = 'My Work';
-     $rm    ='How to reach me';
-     $p     = 'Portfolio';
-?>
+<?php include 'variables.php' ?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,7 +16,7 @@
    <div class="menu-btn">
     <div class="btn-line"></div>
     <div class="btn-line"></div>
-    <div class="btn-line"></div> 
+    <div class="btn-line"></div>
    </div>
 
    <nav class="menu">
@@ -36,19 +27,15 @@
   border: yellow 3px solid;"/></div>
     </div>
     <ul class="menu-nav">
-    <li class="nav-item current">
-        <a href="index.php" class="nav-link"> <?=  $h; ?></a>
-    </li>
-    <li class="nav-item">
-        <a href="about.php" class="nav-link"><?=  $ab; ?></a>
-    </li>
-    <li class="nav-item">
-        <a href="work.php" class="nav-link"><?=  $mw; ?></a>
-    </li>
-    <li class="nav-item">
-        <a href="contact.php" class="nav-link"><?=  $rm; ?></a>
-    </li>
+        <?php
+        foreach ($menuitems as $url => $label){
 
+
+        ?>
+        <li class="nav-item ">
+            <a href="<?=  $url ?>" class="nav-link"><?=    $label   ?></a>
+            <?php } ?>
+        </li>
     </ul>
 
    </nav>
@@ -56,7 +43,8 @@
 
    <main id="home">
     <h1 class="lg-heading">
-        <?=  $name; ?> <span class="text-secondary"><?=  $lname; ?> </span>
+        <?=  $name ?> <span class="text-secondary"><?=  $lname ?> </span>
+
     </h1>
     
     <h2 id="sm-heading">
@@ -76,24 +64,17 @@
        }
 
        $whoParam = array_key_exists("who", $_GET) ? $_GET["who"] : 1;
-       echo tellTitle($whoParam);
+       echo tellTitle($whoParam)
 
        ?>
     </h2>
     <div class="icons"> <?php
-        $icons=array(
-                array("name" => "linkedin",
-                      "link" => "https://www.linkedin.com/in/regina-borisova-11777a24a/"),
-                array("name" => "facebook",
-                      "link" => "https://www.facebook.com/lina.gusman.790"),
-                array("name" => "github",
-                      "link" => "https://github.com/ReginaBorisova")
-        );
+
         foreach ($icons as $icon) {
             ?>
 
-       <a href="<?php echo $icon['link']; ?>">
-        <i class="fab fa-<?php echo $icon['name']; ?> fa-2x"></i>
+       <a href="<?php echo $icon['link'] ?>">
+        <i class="fab fa-<?php echo $icon['name'] ?> fa-2x"></i>
        </a>
 
            <?php } ?>

@@ -14,8 +14,7 @@
     <div class="btn-line"></div>
     <div class="btn-line"></div>
     <div class="btn-line"></div> 
-   </div>
-
+   </div><?php include 'variables.php' ?>
    <nav class="menu">
     <div class="menu-branding">
      <div class="portrait"><img src="WebPagePic.jpg" style="   width: 250px;
@@ -23,19 +22,19 @@
   margin: auto;
   border-radius: 50%;"/></div>
     </div>
+
+
     <ul class="menu-nav">
-    <li class="nav-item ">
-        <a href="index.php" class="nav-link">Home</a>
-    </li>
-    <li class="nav-item current">
-        <a href="about.html" class="nav-link">About Me</a>
-    </li>
-    <li class="nav-item">
-        <a href="work.php" class="nav-link">My Work</a>
-    </li>
-    <li class="nav-item">
-        <a href="contact.php" class="nav-link">How to reach Me</a>
-    </li>
+        <?php
+        foreach ($menuitems as $url => $label){
+
+
+        ?>
+        <li class="nav-item ">
+            <a href="<?=  $url ?>" class="nav-link"><?=    $label   ?></a>
+            <?php } ?>
+        </li>
+
 
     </ul>
 

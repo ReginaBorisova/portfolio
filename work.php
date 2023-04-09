@@ -10,11 +10,12 @@
 </head>
 <body>
    <header>
-   <div class="menu-btn">
-    <div class="btn-line"></div>
-    <div class="btn-line"></div>
-    <div class="btn-line"></div> 
-   </div>
+       <div class="menu-btn">
+           <div class="btn-line"></div>
+           <div class="btn-line"></div>
+           <div class="btn-line"></div>
+
+   </div><?php include 'variables.php' ?>
 
    <nav class="menu">
     <div class="menu-branding">
@@ -23,19 +24,19 @@
   margin: auto;
   border-radius: 50%;"/></div>
     </div>
+
+
     <ul class="menu-nav">
+        <?php
+           foreach ($menuitems as $url => $label){
+
+
+        ?>
     <li class="nav-item ">
-        <a href="index.php" class="nav-link">Home</a>
+        <a href="<?=  $url ?>" class="nav-link"><?=    $label   ?></a>
+        <?php } ?>
     </li>
-    <li class="nav-item ">
-        <a href="about.php" class="nav-link">About Me</a>
-    </li>
-    <li class="nav-item current">
-        <a href="work.html" class="nav-link">My Work</a>
-    </li>
-    <li class="nav-item">
-        <a href="contact.php" class="nav-link">How to reach Me</a>
-    </li>
+
 
     </ul>
 
