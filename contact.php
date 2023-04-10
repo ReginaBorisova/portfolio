@@ -1,3 +1,4 @@
+<?php include 'variables.php'?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,8 +15,7 @@
     <div class="btn-line"></div>
     <div class="btn-line"></div>
     <div class="btn-line"></div>
-   </div><?php include 'variables.php'?>
-
+   </div>
    <nav class="menu">
     <div class="menu-branding">
      <div class="portrait"><img src="/img/WebPagePic.jpg" style="   width: 250px;
