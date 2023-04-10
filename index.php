@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/picture.css">
     <script src="https://kit.fontawesome.com/7f1d61da1e.js" crossorigin="anonymous"></script>
     <title><?=  $titleIndex ?></title>
 </head>
@@ -18,10 +19,7 @@
    </div>
    <nav class="menu">
     <div class="menu-branding">
-     <div class="portrait"><img src="/img/WebPagePic.jpg" style="width: 250px ;
-    height: 250px;   margin: auto;
-    border-radius: 50% ;
-    border: yellow 3px solid ;"/></div>
+     <div class="portrait"><img src="/img/WebPagePic.jpg" /></div>
     </div>
     <ul class="menu-nav">
         <?php
