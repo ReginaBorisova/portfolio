@@ -22,30 +22,21 @@
   margin: auto;
   border-radius: 50%;"/></div>
     </div>
-
-
     <ul class="menu-nav">
         <?php
         foreach ($menuitems as $url => $label){
-
-
         ?>
         <li class="nav-item ">
             <a href="<?=  $url ?>" class="nav-link"><?=    $label   ?></a>
             <?php } ?>
         </li>
-
-
     </ul>
-
    </nav>
-   </header> 
-
+   </header>
    <main id="about">
     <h1 class="lg-heading">
         About <span class="text-secondary">Me </span>
     </h1>
-    
     <h2 id="sm-heading">
         Let me tell you a few things...
     </h2>
@@ -59,21 +50,16 @@
     <div class="job job-1">
     <h3>Place for My 1st WebDevJob</h3>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore earum nemo assumenda adipisci quasi quibusdam. Dicta delectus accusamus repellat ratione?</p>
-
     </div>
-
     <div class="job job-2">
         <h3>Place for My 2st WebDevJob</h3>
         <h6>Middle Web Dev</h6>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore earum nemo assumenda adipisci quasi quibusdam. Dicta delectus accusamus repellat ratione?</p>
-    
         </div>
-
         <div class="job job-3">
             <h3>Place for My 3st WebDevJob</h3>
             <h6>Senior Web Dev</h6>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore earum nemo assumenda adipisci quasi quibusdam. Dicta delectus accusamus repellat ratione?</p>
-        
             </div>
     </div>
     

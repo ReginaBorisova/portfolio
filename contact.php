@@ -26,17 +26,12 @@
     <ul class="menu-nav">
         <?php
         foreach ($menuitems as $url => $label){
-
-
         ?>
         <li class="nav-item ">
             <a href="<?=  $url ?>" class="nav-link"><?=    $label   ?></a>
             <?php } ?>
         </li>
-
-
     </ul>
-
    </nav>
    </header> 
 
@@ -44,7 +39,6 @@
     <h1 class="lg-heading">
         Contact <span class="text-secondary">Me </span>
     </h1>
-    
     <h2 id="sm-heading">
         This is how you can reach me...
     </h2>
@@ -60,9 +54,7 @@
         <div>
             <span class="text-secondary"><?=   $address    ?></span> Monroe, Connecticut
         </div>
-   
     </div>
-    
    </main>
    <footer id="main-footer"> Copyright &copy;2023</footer>
    <script src="/js/main.js"></script>

@@ -9,29 +9,22 @@
 <body>
 <h2>
     <?php
-
       echo  " PHP CALCULATIONS "
-
      ?>
 </h2>
-
 <h1><?php
        function product($a, $b){
            return $a * $b;
        }
-
        function maximum($a, $b){
            return max($a,$b);
        }
-
        function minim($a, $b){
            return min($a, $b);
        }
-
       function summ($a, $b){
         return $a+$b;
       }
-
     function difference($a, $b){
         if ($a < $b) {
             $result=$b - $a;
@@ -44,12 +37,9 @@
     function division($a, $b){
         return round($a / $b);
     }
-
     function modulo($a, $b){
         return $a % $b;
     }
-
-
      $test=array('a' => 2, 'b' => 5);
 
        foreach($test as $key=> $value) {
@@ -62,14 +52,8 @@
            echo "The division of {$test['a']} and {$test['b']} is: " . division($test['a'], $test['b']) . "<br>";
            echo "The modulo of {$test['a']} and {$test['b']} is: " . modulo($test['a'], $test['b']) . "<br>";
        }
-
-
-
-
-
     ?>
 
 </h1>
-
 </body>
 </html>
