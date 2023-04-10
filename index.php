@@ -35,8 +35,9 @@
 
    <main id="home">
     <h1 class="lg-heading">
-        <?=  $name ?> <span class="text-secondary"><?=  $lname ?> </span>
+        <?=  $name ?> <span class="text-secondary"><?=  $lname ?></span>
     </h1>
+       <p><?=  " Completed $x projects"?> </p>
        <h2 id="sm-heading">
        <?php
        function tellTitle(int $titleType) : string {

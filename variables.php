@@ -25,4 +25,6 @@ $menuitems=[
       ["name" => "facebook",  "link" => "https://www.facebook.com/lina.gusman.790"],
       ["name" => "github", "link" => "https://github.com/ReginaBorisova"]
   ];
+$x = mt_rand(1, 100);
+
 ?>
