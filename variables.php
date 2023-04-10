@@ -5,9 +5,14 @@ $mw    = 'My Work';
 $rm    = 'How to reach me';
 $email = 'E-mail';
 $phone = 'Phone';
-$address= 'Address';
-$name='Regina';
-$lname= 'Borisova';
+$address = 'Address';
+$name ='Regina';
+$lname = 'Borisova';
+$titleIndex ='My Portfolio ';
+$titleAbout = 'About Me';
+$titleWork = 'View My Work';
+$titleContact = 'Contact Me';
+
 
 $menuitems=[
     '/index.php'=> 'Home',
