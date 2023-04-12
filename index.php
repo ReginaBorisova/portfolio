@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/picture.css">
     <script src="https://kit.fontawesome.com/7f1d61da1e.js" crossorigin="anonymous"></script>
-    <title><?=  $titleIndex ?></title>
+    <title><?=$titleIndex?></title>
 </head>
 <body>
    <header>
@@ -26,7 +26,7 @@
         foreach ($menuitems as $url => $label){
         ?>
         <li class="nav-item ">
-            <a href="<?=  $url ?>" class="nav-link"><?=    $label   ?></a>
+            <a href="<?=$url?>" class="nav-link"><?=$label?></a>
             <?php } ?>
         </li>
     </ul>
@@ -35,9 +35,9 @@
 
    <main id="home">
     <h1 class="lg-heading">
-        <?=  $name ?> <span class="text-secondary"><?=  $lname ?></span>
+        <?=$name?> <span class="text-secondary"><?=$lastName?></span>
     </h1>
-       <p><?=  " Completed $x projects"?> </p>
+       <p><?=" Completed $x projects"?> </p>
        <h2 id="sm-heading">
        <?php
        function tellTitle(int $titleType) : string {

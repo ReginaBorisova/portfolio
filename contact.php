@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/picture.css">
     <script src="https://kit.fontawesome.com/7f1d61da1e.js" crossorigin="anonymous"></script>
-    <title><?= $titleContact ?></title>
+    <title><?=$titleContact?></title>
 </head>
 <body>
    <header>
@@ -19,10 +19,7 @@
    </div>
    <nav class="menu">
     <div class="menu-branding">
-     <div class="portrait"><img src="/img/WebPagePic.jpg" style="   width: 250px;
-  height: 250px;
-  margin: auto;
-  border-radius: 50%;"/></div>
+     <div class="portrait"><img src="/img/WebPagePic.jpg"/></div>
     </div>
     <ul class="menu-nav">
         <?php
@@ -38,26 +35,26 @@
 
    <main id="contact">
     <h1 class="lg-heading">
-        Contact <span class="text-secondary">Me </span>
+        <?='Contact'?> <span class="text-secondary"><?='Me'?> </span>
     </h1>
     <h2 id="sm-heading">
-        This is how you can reach me...
+        <?='This is how you can reach me...'?>
     </h2>
     <div class="boxes">
         <div>
-            <span class="text-secondary"><?=   $email    ?></span>regina.borisovaus@gmail.com
+            <span class="text-secondary"><?=$email?></span><?='regina.borisovaus@gmail.com'?>
         </div>
 
         <div>
-            <span class="text-secondary"><?=   $phone    ?></span>(718)-517-16-54
+            <span class="text-secondary"><?=$phone?></span><?='(718)-517-16-54'?>
         </div>
 
         <div>
-            <span class="text-secondary"><?=   $address    ?></span> Monroe, Connecticut
+            <span class="text-secondary"><?=$address?></span> <?='Monroe, Connecticut'?>
         </div>
     </div>
    </main>
-   <footer id="main-footer"> Copyright &copy;2023</footer>
+   <footer id="main-footer"> <?= 'Copyright '?>&copy; <?php echo date("Y"); ?>
    <script src="/js/main.js"></script>
 </body>
 </html>
