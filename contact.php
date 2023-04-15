@@ -31,20 +31,18 @@
         </li>
     </ul>
    </nav>
-   </header> 
-
+   </header>
    <main id="contact">
     <h1 class="lg-heading">
-        <?='Contact'?> <span class="text-secondary"><?='Me'?> </span>
+        <?=$contact?> <span class="text-secondary"><?=$me?> </span>
     </h1>
     <h2 id="sm-heading">
-        <?='This is how you can reach me...'?>
+        <?=$reachme?>
     </h2>
     <div class="boxes">
         <div>
             <span class="text-secondary"><?=$email?></span><?='regina.borisovaus@gmail.com'?>
         </div>
-
         <div>
             <span class="text-secondary"><?=$phone?></span><?='(718)-517-16-54'?>
         </div>
@@ -54,7 +52,7 @@
         </div>
     </div>
    </main>
-   <footer id="main-footer"> <?= 'Copyright '?>&copy; <?php echo date("Y"); ?>
+   <footer id="main-footer"> <?= "$copyright"?>&copy; <?php echo date("Y"); ?>
    <script src="/js/main.js"></script>
 </body>
 </html>

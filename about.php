@@ -60,9 +60,8 @@
             <p><?=$jobDescription?></p>
             </div>
     </div>
-    
    </main>
-   <footer id="main-footer"> <?= 'Copyright '?>&copy; <?php echo date("Y"); ?>
+   <footer id="main-footer"> <?= "$copyright"?>&copy; <?php echo date("Y"); ?>
    </footer>
    <script src="/js/main.js"></script>
 </body>

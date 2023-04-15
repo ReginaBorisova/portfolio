@@ -34,71 +34,28 @@
    </header>
    <main id="work">
     <h1 class="lg-heading">
-        <?='My'?>  <span class="text-secondary"><?='Work'?> </span>
+        <?=$my?>  <span class="text-secondary"><?=$work?> </span>
     </h1>
     <h2 id="sm-heading">
-       <?='Check Out Some of My Projects'?>
+       <?=$checkMyProjects?>
     </h2>
-    <div class="projects">
-       <div class="item">
-
-        <a href="#!">
-            <img src="/img/projects/project1.jpg"class="project-img" alt="Project Pic" id="project" >
-        </a>
-        <a href="#" class="btn-light">
-            <i class="fas fa-eye"></i><?=$project?>
-        </a>
-        <a href="#" class="btn-dark">
-            <i class="fab fa-github"></i><?=$gitHub?>
-        </a>
+       <div class="projects">
+           <?php foreach ($projects as $project): ?>
+               <div class="item">
+                   <a href="#!">
+                       <img src="<?= $project['img'] ?>" class="project-img" alt="Project Pic" id="project">
+                   </a>
+                   <a href="#" class="btn-light">
+                       <i class="fas fa-eye"></i><?= $project['project'] ?>
+                   </a>
+                   <a href="#" class="btn-dark">
+                       <i class="fab fa-github"></i><?= $project['gitHub'] ?>
+                   </a>
+               </div>
+           <?php endforeach; ?>
        </div>
-       <div class="item">
-        <a href="#!">
-            <img src="/img/projects/project2.jpg" alt="Project Pic">
-        </a>
-        <a href="#" class="btn-light">
-            <i class="fas fa-eye"></i><?=$project?>
-        </a>
-        <a href="#" class="btn-dark">
-            <i class="fab fa-github"></i><?=$gitHub?>
-        </a>
-       </div>
-       <div class="item">
-        <a href="#!">
-            <img src="/img/projects/project3.jpg" alt="Project Pic">
-        </a>
-        <a href="#" class="btn-light">
-            <i class="fas fa-eye"></i><?=$project?>
-        </a>
-        <a href="#" class="btn-dark">
-            <i class="fab fa-github"></i><?=$gitHub?>
-        </a>
-       </div>
-       <div class="item">
-        <a href="#!">
-            <img src="/img/projects/project4.jpg" alt="Project Pic">
-        </a>
-        <a href="#" class="btn-light">
-            <i class="fas fa-eye"></i><?=$project?>
-        </a>
-        <a href="#" class="btn-dark">
-            <i class="fab fa-github"></i><?=$gitHub?>
-        </a>
-       </div>
-       <div class="item">
-        <a href="#!">
-            <img src="/img/projects/project5.jpg" alt="Project Pic">
-        </a>
-        <a href="#" class="btn-light">
-            <i class="fas fa-eye"></i><?=$project?>
-        </a>
-        <a href="#" class="btn-dark">
-            <i class="fab fa-github"></i><?=$gitHub?>
-        </a>
-       </div>
-    </div>
    </main>
-   <footer id="main-footer"> <?= 'Copyright '?>&copy; <?php echo date("Y"); ?>
+   <footer id="main-footer"> <?= "$copyright"?>&copy; <?php echo date("Y"); ?>
    <script src="/js/main.js"></script>
 </body>
 </html>

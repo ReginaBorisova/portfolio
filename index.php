@@ -31,13 +31,12 @@
         </li>
     </ul>
    </nav>
-   </header> 
-
+   </header>
    <main id="home">
     <h1 class="lg-heading">
         <?=$name?> <span class="text-secondary"><?=$lastName?></span>
     </h1>
-       <p><?=" Completed $x projects"?> </p>
+       <p><?=$completedXProjects ?> </p>
        <h2 id="sm-heading">
        <?php
        function tellTitle(int $titleType) : string {

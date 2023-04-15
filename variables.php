@@ -4,7 +4,9 @@ $about = 'About';
 $me = 'Me';
 $fewThings = 'Let me tell you a few things';
 $title = 'Middle Web Dev';
-
+$contact = 'Contact';
+$my = 'My';
+$work = 'Work';
 $home     = 'Home';
 $aboutMe    = 'About Me';
 $myWork    = 'My Work';
@@ -17,14 +19,15 @@ $lastName = 'Borisova';
 $titleIndex ='My Portfolio ';
 $titleAbout = 'About Me';
 $titleWork = 'View My Work';
-$titleWork = 'View My Work';
+$reachme = 'This is how you can reach me';
 $titleContact = 'Contact Me';
 $firstCompany = 'Place for my 1st WebDevJob';
 $secondCompany = 'Place for my 2nd WebDevJob';
 $thirdCompany = 'Place for my 3d WebDevJob';
+$checkMyProjects = 'Check out some of my projects';
 $project = 'Project';
 $gitHub = 'Github';
-
+$copyright='Copyright';
 $menuitems=[
     '/index.php'=> 'Home',
     '/about.php'=> 'About Me',
@@ -37,8 +40,36 @@ $menuitems=[
       ["name" => "github", "link" => "https://github.com/ReginaBorisova"]
   ];
 $x = mt_rand(1, 100);
+$completedXProjects = "Completed $x projects";
 
 $jobDescription = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla voluptas animi 
                    veritatis debitis possimus autem eius architecto repudiandae ea labore iure, facilis 
                    accusamus nihil obcaecati at voluptates, alias dolor quas.';
+$projects = [
+    [
+        'img' => '/img/projects/project1.jpg',
+        'project' => 'Project 1',
+        'gitHub' => 'GitHub'
+    ],
+    [
+        'img' => '/img/projects/project2.jpg',
+        'project' => 'Project 2',
+        'gitHub' => 'GitHub'
+    ],
+    [
+        'img' => '/img/projects/project3.jpg',
+        'project' => 'Project 3',
+        'gitHub' => 'GitHub'
+    ],
+    [
+        'img' => '/img/projects/project4.jpg',
+        'project' => 'Project 4',
+        'gitHub' => 'GitHub'
+    ],
+    [
+        'img' => '/img/projects/project5.jpg',
+        'project' => 'Project 5',
+        'gitHub' => 'GitHub'
+    ]
+];
 ?>
