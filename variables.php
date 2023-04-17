@@ -28,6 +28,7 @@ $checkMyProjects = 'Check out some of my projects';
 $project = 'Project';
 $gitHub = 'Github';
 $copyright='Copyright';
+$addressct = "Monroe, Connecticut";
 $menuitems=[
     '/index.php'=> 'Home',
     '/about.php'=> 'About Me',
@@ -49,27 +50,27 @@ $projects = [
     [
         'img' => '/img/projects/project1.jpg',
         'project' => 'Project 1',
-        'gitHub' => 'GitHub'
+        'github' => 'Github'
     ],
     [
         'img' => '/img/projects/project2.jpg',
         'project' => 'Project 2',
-        'gitHub' => 'GitHub'
+        'github' => 'Github'
     ],
     [
         'img' => '/img/projects/project3.jpg',
         'project' => 'Project 3',
-        'gitHub' => 'GitHub'
+        'github' => 'Github'
     ],
     [
         'img' => '/img/projects/project4.jpg',
         'project' => 'Project 4',
-        'gitHub' => 'GitHub'
+        'github' => 'Github'
     ],
     [
         'img' => '/img/projects/project5.jpg',
         'project' => 'Project 5',
-        'gitHub' => 'GitHub'
+        'github' => 'Github'
     ]
 ];
 ?>

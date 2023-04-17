@@ -49,7 +49,7 @@
                        <i class="fas fa-eye"></i><?= $project['project'] ?>
                    </a>
                    <a href="#" class="btn-dark">
-                       <i class="fab fa-github"></i><?= $project['gitHub'] ?>
+                       <i class="fab fa-github"></i><?= $project['github'] ?>
                    </a>
                </div>
            <?php endforeach; ?>

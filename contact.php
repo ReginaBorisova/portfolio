@@ -48,7 +48,7 @@
         </div>
 
         <div>
-            <span class="text-secondary"><?=$address?></span> <?='Monroe, Connecticut'?>
+            <span class="text-secondary"><?=$address?></span> <?=$addressct?>
         </div>
     </div>
    </main>
