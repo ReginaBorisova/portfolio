@@ -9,8 +9,8 @@
 <!--    <link rel="stylesheet" href="/css/main.css">-->
 <!--    <link rel="stylesheet" href="/css/picture.css">-->
 <!--    <script src="https://kit.fontawesome.com/7f1d61da1e.js" crossorigin="anonymous"></script>-->
-<!--    <title>--><?php //=$titleWork ?><!--</title>-->
 <!--</head>-->
+<title><?=$titleWork ?></title>
 <body>
    <header>
        <?php require './include/menu.php';?>
