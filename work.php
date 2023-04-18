@@ -12,15 +12,16 @@
 </head>
 <body>
    <header>
-       <div class="menu-btn">
-           <div class="btn-line"></div>
-           <div class="btn-line"></div>
-           <div class="btn-line"></div>
-   </div>
-   <nav class="menu">
-    <div class="menu-branding">
-     <div class="portrait"><img src="/img/WebPagePic.jpg"/></div>
-    </div>
+       <?php require './include/menu.php';?>
+<!--       <div class="menu-btn">-->
+<!--           <div class="btn-line"></div>-->
+<!--           <div class="btn-line"></div>-->
+<!--           <div class="btn-line"></div>-->
+<!--   </div>-->
+<!--   <nav class="menu">-->
+<!--    <div class="menu-branding">-->
+<!--     <div class="portrait"><img src="/img/WebPagePic.jpg"/></div>-->
+<!--    </div>-->
     <ul class="menu-nav">
         <?php
            foreach ($menuitems as $url => $label){
@@ -55,7 +56,7 @@
            <?php endforeach; ?>
        </div>
    </main>
-   <footer id="main-footer"> <?= "$copyright"?>&copy; <?php echo date("Y"); ?>
+   <?php require'./include/footer.php';?>
    <script src="/js/main.js"></script>
 </body>
 </html>
