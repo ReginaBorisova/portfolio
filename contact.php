@@ -1,15 +1,16 @@
 <?php include 'variables.php'?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/picture.css">
-    <script src="https://kit.fontawesome.com/7f1d61da1e.js" crossorigin="anonymous"></script>
-    <title><?=$titleContact?></title>
-</head>
+<?php require'./include/head.php';?>
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <link rel="stylesheet" href="/css/main.css">-->
+<!--    <link rel="stylesheet" href="/css/picture.css">-->
+<!--    <script src="https://kit.fontawesome.com/7f1d61da1e.js" crossorigin="anonymous"></script>-->
+<!--    <title>--><?php //=$titleContact?><!--</title>-->
+<!--</head>-->
 <body>
    <header>
        <?php require './include/menu.php';?>
@@ -27,7 +28,7 @@
         foreach ($menuitems as $url => $label){
         ?>
         <li class="nav-item ">
-            <a href="<?=  $url ?>" class="nav-link"><?=    $label   ?></a>
+            <a href="<?=  $url ?>" class="nav-link"><?=$label?></a>
             <?php } ?>
         </li>
     </ul>
@@ -54,6 +55,6 @@
     </div>
    </main>
    <?php require'./include/footer.php';?>
-   <script src="/js/main.js"></script>
+<!--   <script src="/js/main.js"></script>-->
 </body>
 </html>
