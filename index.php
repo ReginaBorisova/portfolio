@@ -1,11 +1,11 @@
-<?php include 'variables.php' ?>
+<?php include_once 'variables.php' ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php require'./include/head.php';?>
+<?php include_once './template/head.phtml';?>
 <title><?=$titleIndex?></title>
 <body>
    <header>
-       <?php require './include/menu.php';?>
+       <?php  include_once './template/menu.phtml';?>
     <ul class="menu-nav">
         <?php
         foreach ($menuitems as $url => $label){
@@ -47,6 +47,6 @@
                        <?php } ?>
     </div>
    </main>
-   <?php require'./include/footer.php';?>
+   <?php include_once './template/footer.phtml';?>
 </body>
 </html>
