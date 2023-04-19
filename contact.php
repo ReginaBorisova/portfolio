@@ -8,7 +8,7 @@
        <?php require './include/menu.php';?>
     <ul class="menu-nav">
         <?php
-        foreach ($menuitems as $url => $label){
+        foreach ($menuitems as $url => $label){ 
         ?>
         <li class="nav-item ">
             <a href="<?=  $url ?>" class="nav-link"><?=$label?></a>
