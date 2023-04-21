@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include_once './template/head.phtml';?>
-<title><?=$titleWork ?></title>
+<title><?=$titleWork?></title>
 <body>
    <header>
        <?php include_once './template/menu.phtml';?>
