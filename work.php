@@ -6,15 +6,26 @@
 <body>
    <header>
        <?php include_once './template/menu.phtml';?>
-    <ul class="menu-nav">
-        <?php
+       <ul class="menu-nav">
+           <?php
+           $currentPage = basename($_SERVER['SCRIPT_FILENAME']);
            foreach ($menuitems as $url => $label){
-        ?>
-    <li class="nav-item ">
-        <a href="<?= $url?>" class="nav-link"><?=$label?></a>
-        <?php } ?>
-    </li>
-    </ul>
+               $active = ($currentPage == basename($url)) ? ' id="here"' : '';
+               ?>
+               <li class="nav-item">
+                   <a href="<?=$url?>" class="nav-link"<?=$active?>><?=$label?></a>
+               </li>
+           <?php } ?>
+       </ul>
+<!--    <ul class="menu-nav">-->
+<!--        --><?php
+//           foreach ($menuitems as $url => $label){
+//        ?>
+<!--    <li class="nav-item ">-->
+<!--        <a href="--><?php //= $url?><!--" class="nav-link">--><?php //=$label?><!--</a>-->
+<!--        --><?php //} ?>
+<!--    </li>-->
+<!--    </ul>-->
    </nav>
    </header>
    <main id="work">
