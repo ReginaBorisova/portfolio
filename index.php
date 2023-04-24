@@ -2,7 +2,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include_once './template/head.phtml';?>
-<title><?=$titleIndex?></title>
+<?php
+$title = $page_titles[basename($_SERVER['SCRIPT_FILENAME'])];
+?>
+<title><?php echo $title; ?></title>
+<!--<title>--><?php //=$titleIndex?><!--</title>-->
 <body>
    <header>
        <?php  include_once './template/menu.phtml';?>
