@@ -46,7 +46,7 @@
        </a>
                        <?php } ?>
     </div>
-   </main>
+   </main> 
    <?php include_once './template/footer.phtml';?>
 </body>
 </html>
