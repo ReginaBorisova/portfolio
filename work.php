@@ -1,11 +1,11 @@
-<?php require_once __DIR__ . '/variables.php' ?>
+<?php require_once __DIR__ .'/variables.php' ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php require_once __DIR__ . '/template/head.phtml';?>
+<?php require_once __DIR__ .'/template/head.phtml';?>
 <title><?=$titleWork?></title>
 <body>
    <header>
-       <?php require_once __DIR__ . '/template/menu.phtml';?>
+       <?php require_once __DIR__ .'/template/menu.phtml';?>
     <ul class="menu-nav">
         <?php
            foreach ($menuitems as $url => $label){
