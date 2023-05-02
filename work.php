@@ -40,6 +40,6 @@
            <?php endforeach; ?>
        </div>
    </main>
-   <?php require_once __DIR__ .'/template/footer.phtml';?>
+   <?php require_once __DIR__ . '/template/footer.phtml';?>
 </body>
 </html>

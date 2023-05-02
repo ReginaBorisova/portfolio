@@ -46,7 +46,8 @@
        </a>
                        <?php } ?>
     </div>
-   </main> 
-   <?php require_once __DIR__ . '/template/footer.phtml';?>
+   </main>
+   <?php require_once __DIR__ .'/template/footer.phtml';?>
 </body>
+
 </html>
