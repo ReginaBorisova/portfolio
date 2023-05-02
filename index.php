@@ -1,16 +1,15 @@
-<?php include_once 'variables.php' ?>
+<?php require_once __DIR__ .'/variables.php' ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include_once './template/head.phtml';?>
+<?php require_once __DIR__ .'/template/head.phtml';?>
 <?php
 $title = $page_titles[basename($_SERVER['SCRIPT_FILENAME'])];
 ?>
 <title><?php echo $title; ?></title>
-<!--<title>--><?php //=$titleIndex?><!--</title>-->
 <body>
    <header>
-       <?php  include_once './template/menu.phtml';?>
-       <ul class="menu-nav">
+       <nav>
+        <ul class="menu-nav">
            <?php
            $currentPage = basename($_SERVER['SCRIPT_FILENAME']);
            foreach ($menuitems as $url => $label){
@@ -21,15 +20,6 @@ $title = $page_titles[basename($_SERVER['SCRIPT_FILENAME'])];
                </li>
            <?php } ?>
        </ul>
-<!--    <ul class="menu-nav">-->
-<!--        --><?php
-//        foreach ($menuitems as $url => $label){
-//        ?>
-<!--        <li class="nav-item ">-->
-<!--            <a href="--><?php //=$url?><!--" class="nav-link">--><?php //=$label?><!--</a>-->
-<!--            --><?php //} ?>
-<!--        </li>-->
-<!--    </ul>-->
    </nav>
    </header>
    <main id="home">
@@ -62,6 +52,7 @@ $title = $page_titles[basename($_SERVER['SCRIPT_FILENAME'])];
                        <?php } ?>
     </div>
    </main>
-   <?php include_once './template/footer.phtml';?>
+   <?php require_once __DIR__ .'/template/footer.phtml';?>
 </body>
+
 </html>
