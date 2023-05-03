@@ -3,9 +3,12 @@
 <html lang="en">
 <?php include_once './template/head.phtml';?>
 <?php
-$title = $page_titles[basename($_SERVER['SCRIPT_FILENAME'])];
+function getPageTitle($page_titles) {
+    $title = $page_titles[basename($_SERVER['SCRIPT_FILENAME'])];
+    return $title;
+}
 ?>
-<title><?php echo $title; ?></title>
+<title><?php echo $title = getPageTitle($page_titles); ?></title>
 <body>
    <header>
        <nav>
