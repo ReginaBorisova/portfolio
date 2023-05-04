@@ -9,9 +9,6 @@ require_once __DIR__ . '/variables.php';
 require_once __DIR__ . '/template/title.phtml';
 ?>
 <title><?php echo $title = getPageTitle($page_titles); ?></title>
-<body>
-<header>
-    <nav>
         <?php require_once __DIR__ . '/template/menu.phtml'; ?>
         <ul class="menu-nav">
             <?php
