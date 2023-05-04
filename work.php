@@ -1,11 +1,11 @@
-<?php include_once 'variables.php' ?>
+<?php require_once __DIR__ .'/variables.php' ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include_once './template/head.phtml';?>
+<?php require_once __DIR__ .'/template/head.phtml';?>
 <title><?=$titleWork?></title>
 <body>
    <header>
-       <?php include_once './template/menu.phtml';?>
+       <?php require_once __DIR__ .'/template/menu.phtml';?>
     <ul class="menu-nav">
         <?php
            foreach ($menuitems as $url => $label){
@@ -40,6 +40,6 @@
            <?php endforeach; ?>
        </div>
    </main>
-   <?php include_once './template/footer.phtml';?>
+   <?php require_once __DIR__ . '/template/footer.phtml';?>
 </body>
 </html>
