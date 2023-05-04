@@ -5,7 +5,7 @@ require_once __DIR__ . '/variables.php';
 <html lang="en">
 <?php require_once __DIR__ . '/template/head.phtml'; ?>
 <?php
-require_once __DIR__ . '/template/title.phtml';
+require_once __DIR__ . '/functions/title.phtml';
 ?>
 <title><?php echo $title = getPageTitle($page_titles); ?></title>
         <?php require_once __DIR__ . '/template/menu.phtml'; ?>
