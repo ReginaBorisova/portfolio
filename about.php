@@ -1,7 +1,6 @@
 <?php
 require_once __DIR__ . '/variables.php';
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <?php
