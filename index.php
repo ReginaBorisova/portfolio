@@ -5,8 +5,6 @@ require_once __DIR__ . '/variables.php';
 <html lang="en">
 <?php
 require_once __DIR__ . '/template/head.phtml';
-?>
-<?php
 require_once __DIR__ . '/functions/title.phtml';
 ?>
 <title>

@@ -3,8 +3,8 @@ require_once __DIR__ . '/variables.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include_once './template/head.phtml'; ?>
 <?php
+require_once __DIR__ . '/template/head.phtml';
 require_once __DIR__ . '/functions/title.phtml';
 ?>
 <title><?php echo $title = getPageTitle($page_titles); ?></title>
