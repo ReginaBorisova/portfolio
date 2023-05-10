@@ -3,25 +3,12 @@ require_once __DIR__ . '/variables.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php
-require_once __DIR__ . '/template/head.phtml';
-require_once __DIR__ . '/functions/title.phtml';
-?>
-<title><?php echo $title = getPageTitle($page_titles); ?></title>
-        <?php require_once __DIR__ . '/template/menu.phtml'; ?>
-        <ul class="menu-nav">
-            <?php
-            $currentPage = basename($_SERVER['SCRIPT_FILENAME']);
-            foreach ($menuitems as $url => $label) {
-                $active = ($currentPage == basename($url)) ? ' id="here"' : '';
-                ?>
-                <li class="nav-item">
-                    <a href="<?= $url ?>" class="nav-link"<?= $active ?>><?= $label ?></a>
-                </li>
-            <?php } ?>
-        </ul>
-    </nav>
-</header>
+<head>
+    <?php
+    require_once __DIR__ . '/template/head.phtml';?>
+</head>
+<body>
+    <?php require_once __DIR__ . '/template/menu.phtml'?>
 <main id="contact">
     <h1 class="lg-heading">
         <?= $contact ?> <span class="text-secondary"><?= $me ?> </span>
