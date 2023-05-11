@@ -4,11 +4,11 @@ require_once __DIR__ . '/variables.php';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php
-    require_once __DIR__ . '/template/head.phtml';?>
+<?php
+require_once __DIR__ . '/template/head.phtml';?>
 </head>
 <body>
-    <?php require_once __DIR__ . '/template/menu.phtml'?>
+<?php require_once __DIR__ . '/template/menu.phtml'?>
 <main id="contact">
     <h1 class="lg-heading">
         <?= $contact ?> <span class="text-secondary"><?= $me ?> </span>
