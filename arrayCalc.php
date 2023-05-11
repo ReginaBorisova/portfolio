@@ -10,7 +10,6 @@
 <h2>
     <?php
     echo  " Array Calculations "
-
     ?>
 </h2>
 <h1>  <?php

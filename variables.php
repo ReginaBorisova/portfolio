@@ -75,4 +75,12 @@ $projects = [
         'github' => 'Github'
     ]
 ];
+
+$page_titles = [
+    'index.php' => 'My portfolio',
+    'work.php' => 'View my Work',
+    'about.php' => 'About Me',
+    'contact.php'=>'Contact Me'
+];
+
 ?>
