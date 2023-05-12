@@ -8,7 +8,7 @@ require_once __DIR__ . '/variables.php';
 require_once __DIR__ . '/template/head.phtml';?>
 </head>
 <body>
-        <?php require_once __DIR__ . '/template/menu.phtml'?>
+  <?php require_once __DIR__ . '/template/menu.phtml'?>
 <main id="home">
     <h1 class="lg-heading">
         <?= $name ?> <span class="text-secondary"><?= $lastName ?></span>
