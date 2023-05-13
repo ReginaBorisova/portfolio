@@ -12,38 +12,9 @@
       echo  " PHP CALCULATIONS "
      ?>
 </h2>
-<h1><?php
-       function product($a, $b){
-           return $a * $b;
-       }
-       function maximum($a, $b){
-           return max($a,$b);
-       }
-       function minim($a, $b){
-           return min($a, $b);
-       }
-      function summ($a, $b){
-        return $a+$b;
-      }
-    function difference($a, $b){
-        if ($a < $b) {
-            $result=$b - $a;
-        }
-        else {
-            $result = $a - $b;
-        }
-        return $result;
-    }
-    function division($a, $b){
-        return round($a / $b);
-    }
-    function modulo($a, $b){
-        return $a % $b;
-    }
-     $test=array('a' => 2, 'b' => 5);
-
-       foreach($test as $key=> $value) {
-
+<h1><?php require_once __DIR__ . '/functions/functions.php';?>
+    <?php $test=array('a' => 2, 'b' => 5);
+     foreach($test as $key=> $value) {
            echo "The minimum of {$test['a']} and {$test['b']} is: " . minim($test['a'], $test['b']) . "<br>";
            echo "The maximum of {$test['a']} and {$test['b']} is: " . maximum($test['a'], $test['b']) . "<br>";
            echo "The sum of {$test['a']} and {$test['b']} is: " . summ($test['a'], $test['b']) . "<br>";
@@ -53,7 +24,6 @@
            echo "The modulo of {$test['a']} and {$test['b']} is: " . modulo($test['a'], $test['b']) . "<br>";
        }
     ?>
-
 </h1>
 </body>
 </html>

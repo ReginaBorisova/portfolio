@@ -1,13 +1,11 @@
-<?php
-require_once __DIR__ . '/variables.php';
-?>
+<?php require_once __DIR__ . '/functions/variables.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <?php require_once __DIR__ . '/template/head.phtml';?>
 </head>
 <body>
-  <?php require_once __DIR__ . '/template/menu.phtml'?>
+<?php require_once __DIR__ . '/template/menu.phtml'?>
 <main id="about">
     <h1 class="lg-heading">
         <?= $about ?> <span class="text-secondary"><?= $me ?></span>
