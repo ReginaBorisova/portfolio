@@ -7,16 +7,5 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    $myArray=[
-        'name'=> "Reginka",
-        'title'=>"cool WebDev",
-        "company"=>"FactSet",
-    ];
-foreach($myArray as $key=>$value){
-    echo $key.' '.$value.'<br>';
-}
- ?>
 </body>
-
 </html>
