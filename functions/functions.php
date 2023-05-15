@@ -29,7 +29,6 @@ function tellTitle(int $titleType): string
     }
     return $title . ' Web Developer';
 }
-$whoParam = array_key_exists("who", $_GET) ? $_GET["who"] : 1;
 /**
  * Returns the product of two numbers.
  *

@@ -16,13 +16,9 @@
         <p><?php echo tellTitle($whoParam);?></p>
     </h2>
     <div class="icons">
-        <?php
-        foreach ($icons as $icon) {
-            ?>
-            <a href="<?php echo $icon['link'] ?>">
-                <i class="fab fa-<?php echo $icon['name']?> fa-2x"></i>
-            </a>
-        <?php } ?>
+        <?php foreach ($icons as $icon): ?>
+          <a href="<?= $icon['link'] ?>"><i class="fab fa-<?= $icon['name'] ?> fa-2x"></i></a>
+        <?php endforeach; ?>
     </div>
 </main>
 <?php require_once __DIR__ . '/template/footer.phtml';?>
