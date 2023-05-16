@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-<?php require_once __DIR__ .'/variables.php' ?>
-<!DOCTYPE html>
-<html lang="en">
-<?php require_once __DIR__ .'/template/head.phtml';?>
-<title><?php $titleAbout?></title>
-<body>
-   <header>
-       <?php require_once __DIR__ .'/template/menu.phtml';?>
-    <ul class="menu-nav">
-        <?php
-        foreach ($menuitems as $url => $label){
-        ?>
-        <li class="nav-item ">
-            <a href="<?=$url?>" class="nav-link"><?=$label?></a>
-            <?php } ?>
-        </li>
-    </ul>
-   </nav>
-   </header>
-   <main id="about">
-=======
 <?php require_once __DIR__ . '/functions/variables.php';?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +7,6 @@
 <body>
 <?php require_once __DIR__ . '/template/menu.phtml'?>
 <main id="about">
->>>>>>> dbf4a2756e0e6e429a809d68c827ffb480af0242
     <h1 class="lg-heading">
         <?= $about ?> <span class="text-secondary"><?= $me ?></span>
     </h1>
@@ -57,12 +34,7 @@
             <p><?= $jobDescription ?></p>
         </div>
     </div>
-<<<<<<< HEAD
    </main>
-   <?php require_once __DIR__ . '/template/footer.phtml';?>
-=======
-</main>
 <?php require_once __DIR__ . '/template/footer.phtml'; ?>
->>>>>>> dbf4a2756e0e6e429a809d68c827ffb480af0242
 </body>
 </html>
