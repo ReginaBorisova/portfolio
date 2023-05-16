@@ -35,8 +35,6 @@ body {
   h2.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2 rem 1 rem;
-    
-
   }
 
    a{
@@ -68,7 +66,6 @@ body {
 
    .icons {
     margin-top: 1rem;
-
 
    }
    a,.icon {
@@ -152,7 +149,6 @@ body {
   background: #575757;
   transform: translate(0, 100%, 0);
   transition: transform 0.3s ease-out;
-  
 }
 .menu .menu-branding.show {
   transform: translate3d(0, 0, 0);
@@ -163,8 +159,6 @@ body {
 
   margin: auto;
   border-radius: 50%;
-  
- 
 }
 .menu .nav-item {
   transform: translate3d(600px, 0, 0);
@@ -214,9 +208,7 @@ body {
 }
 
 
-
 /* Media Query for Small  Screens for Smartphones*/
-
 
 @media screen and (max-width: 500px) {
   main#home h1 {
@@ -224,9 +216,9 @@ body {
   }
   .projects{
     grid-template-columns: 1fr;
-    
 }
 }
+
 /* Media Query for Medium Screens for Tablets  Small Laptops */
 
 @media screen and (max-width: 768px) {
@@ -243,7 +235,6 @@ body {
     float: none;
     width: 100%;
     min-height: 0;
-
   }
   .menu-nav {
     height: 75vh;
@@ -253,7 +244,6 @@ body {
   .menu-branding{
     height: 25vh;
     transform: translate3d(100%, 0, 0);
-
   }
   .menu-branding .portrait {
     background: url(../img/WebPagePic.jpg);
@@ -282,7 +272,6 @@ body {
 @media screen and (min-width: 769) and (max-width: 1170px) {
   main .projects{
     grid-template-columns: repeat(3, 1fr);
-    
 }
 }
 
@@ -291,12 +280,8 @@ body {
 @media screen and (min-width: 1171) {
   main .projects{
     grid-template-columns: repeat(4, 1fr);
-
   }
-    
 }
-
-
 
 /* About Me Page Styles */
 
@@ -341,8 +326,6 @@ body {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns:repeat(3, 1fr );
-
-  
  }
  .projects img {
   width: 100%;
@@ -364,7 +347,6 @@ body {
  }
  .btn:hover {
   background: yellow;
-
  }
 
  .btn-dark{
@@ -376,7 +358,6 @@ body {
   background: #726f6f;
   color: white;
  }
-
 
   /* How To Reach Me  Page Styles */
   .boxes {
@@ -391,12 +372,10 @@ body {
     border: 3px white solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
-
   }
   .boxes div:hover {
     padding: 0.5rem 1.5rem;
     background: rgb(222, 187, 60);
-    
   }
   span {
     color:black;

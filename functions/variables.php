@@ -31,6 +31,7 @@ $project = 'Project';
 $gitHub = 'Github';
 $copyright='Copyright';
 $addressct = "Monroe, Connecticut";
+$whoParam = array_key_exists("who", $_GET) ? $_GET["who"] : 1;
 $menuitems=[
     '/index.php'=> 'Home',
     '/about.php'=> 'About Me',
@@ -75,4 +76,12 @@ $projects = [
         'github' => 'Github'
     ]
 ];
+
+$page_titles = [
+    'index.php' => 'My portfolio',
+    'work.php' => 'View my Work',
+    'about.php' => 'About Me',
+    'contact.php'=>'Contact Me'
+];
+
 ?>

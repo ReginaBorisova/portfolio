@@ -1,12 +1,7 @@
 <?php
 $startyear = 2020;
 $thisyear = date("Y");
-if ($startyear == $thisyear){
-    $output = $startyear;
-}else {
-    $output = "{$startyear}&ndash;{$thisyear}";
-}
-
+$output = ($startyear == $thisyear) ? $startyear : "{$startyear}&ndash;{$thisyear}";
 ?>
 <footer id="main-footer"> <?= "$copyright"?>&copy; <?=$output?>
 </footer>
