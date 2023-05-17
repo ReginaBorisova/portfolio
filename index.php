@@ -8,8 +8,8 @@
 <?php require_once __DIR__ . '/template/menu.phtml'; ?>
 <main id="home">
     <?php
-    $content = 'home';
-    require_once __DIR__ . '/template/page.phtml';
+      $content = 'home';
+      require_once __DIR__ . '/template/page.phtml';
     ?>
 </main>
 <?php require_once __DIR__ . '/template/footer.phtml'; ?>
