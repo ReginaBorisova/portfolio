@@ -1,0 +1,15 @@
+<?php require_once __DIR__ . '/../functions/variables.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <?php require_once __DIR__ . '/../template/head.phtml'; ?>
+</head>
+<body>
+<?php require_once __DIR__ . '/../template/menu.phtml'; ?>
+<main id="<?php echo $content; ?>">
+    <?php require_once __DIR__ . '/../template/content/' . $content . '.phtml'; ?>
+<!--    --><?php //require_once __DIR__ . '/../template/content/home.phtml'; ?>
+</main>
+<?php require_once __DIR__ . '/../template/footer.phtml'; ?>
+</body>
+</html>
