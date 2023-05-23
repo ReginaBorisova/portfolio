@@ -1,4 +1,4 @@
-<?php require_once __DIR__ . '/functions/variables.php'; ?>
+<?php require_once __DIR__ . '/config/variables.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
