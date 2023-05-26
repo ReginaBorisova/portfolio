@@ -6,18 +6,18 @@ $checkMyProjects = 'Check out some of my projects';
 $projects = [
     [
         'img' => '/img/projects/project1.jpg',
-        'project' => 'Project 1',
-        'github' => 'Github'
+        'project' => 'Color Schemes',
+        'github' => 'https://github.com/ReginaBorisova/Color-Schemes-Practice'
     ],
     [
         'img' => '/img/projects/project2.jpg',
-        'project' => 'Project 2',
-        'github' => 'Github'
+        'project' => 'Portfolio',
+        'github' => 'https://github.com/ReginaBorisova/portfolio'
     ],
     [
         'img' => '/img/projects/project3.jpg',
-        'project' => 'Project 3',
-        'github' => 'Github'
+        'project' => 'TLF Draft',
+        'github' => 'https://github.com/ReginaBorisova/Lucky-Foundation-Draft'
     ],
     [
         'img' => '/img/projects/project4.jpg',
