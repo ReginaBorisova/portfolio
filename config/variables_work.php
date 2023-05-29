@@ -30,5 +30,4 @@ $projects = [
         'github' => 'Github'
     ]
 ];
-
 ?>
