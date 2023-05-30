@@ -11,8 +11,6 @@ function getPageTitle($page_titles)
     $title = $page_titles[basename($_SERVER['SCRIPT_FILENAME'])];
     return $title;
 }
-
-
 /**
  * Returns a current page with id="here".
  *
@@ -26,8 +24,6 @@ function getCurrentPageId($url)
     $active = ($currentPage == basename($url)) ? ' id="here"' : '';
     return $active;
 }
-
-
 /**
  * Returns a string with a title based on the given title type.
  *
