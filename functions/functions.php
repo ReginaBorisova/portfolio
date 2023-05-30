@@ -18,10 +18,9 @@ function getPageTitle($page_titles)
  *
  * @return string with id="here" for the current page.
  */
-function getCurrentPageId($url)
-{
+function getCurrentPageId($url) {
     $currentPage = basename($_SERVER['SCRIPT_FILENAME']);
-    $active = ($currentPage == basename($url)) ? ' id="here"' : '';
+    $active = ($currentPage == basename($url)) ? 'id="here"' : '';
     return $active;
 }
 /**
