@@ -4,19 +4,16 @@
         <div class="btn-line"></div>
         <div class="btn-line"></div>
     </div>
-        <nav class="menu">
-            <div class="menu-branding">
-                <div class="portrait">
-                    <img src="/img/WebPagePic.jpg" />
-                </div>
-            </div>
-            <ul class="menu-nav">
-                <?php foreach ($menuitems as $url => $label): ?>
-                    <li class="nav-item">
-                        <a href="<?= $url ?>" class="nav-link" <?= getCurrentPageId($url) ?>"><?= $label ?></a>
-                    </li>
-                <?php endforeach; ?>
-            </ul>
-        </nav>
+    <nav class="menu">
+        <div class="menu-branding">
+            <div class="portrait"><img src="/img/WebPagePic.jpg" /></div>
+        </div>
+        <ul class="menu-nav">
+            <?php foreach ($menuitems as $url => $label): ?>
+                <li class="nav-item">
+                    <a href="<?= $url ?>" class="nav-link" <?= getCurrentPageId($url) ?>"><?= $label ?></a>
+                </li>
+            <?php endforeach; ?>
+        </ul>
     </nav>
 </header>
