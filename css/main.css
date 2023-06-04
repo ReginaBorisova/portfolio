@@ -188,7 +188,6 @@ body {
   color: #eece1a;
 }
 
-
 /* Delay each nav item slide by 0.1s */
 
 .nav-item:nth-child(1) {
@@ -400,5 +399,8 @@ body {
 }
 .bio h3 {
     color:yellow;
+}
+.nav-link#here {
+    color: #eece1a;
 }
 

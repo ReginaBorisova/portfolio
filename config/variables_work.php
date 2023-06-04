@@ -3,7 +3,7 @@ $my = 'My';
 $work = 'Work';
 $title = 'Middle Web Dev';
 $checkMyProjects = 'Check out some of my projects';
-$projects = [
+$projects =[
     [
         'img' => '/img/projects/project1.jpg',
         'project' => 'Color Schemes',
@@ -30,5 +30,4 @@ $projects = [
         'github' => 'Github'
     ]
 ];
-
 ?>
