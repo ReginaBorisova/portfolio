@@ -19,4 +19,5 @@ $menuitems=[
     '/work.php' => 'My Work',
     '/contact.php'=>'How to reach me'
 ];
+//$content=basename($_SERVER['SCRIPT_FILENAME']);
 ?>
