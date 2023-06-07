@@ -19,4 +19,7 @@ $menuitems=[
     '/work.php' => 'My Work',
     '/contact.php'=>'How to reach me'
 ];
+$protocol = isset($_SERVER['HTTP_X_FORWARDED_PROTO']) ? $_SERVER['HTTP_X_FORWARDED_PROTO'] : (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http');
+$host = $_SERVER['HTTP_HOST'];
+$baseURL = $protocol . '://' . $host;
 ?>
