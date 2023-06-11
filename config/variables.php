@@ -13,11 +13,11 @@ $page_titles = [
     'about.php' => 'About Me',
     'contact.php'=>'Contact Me'
 ];
-$menuitems=[
-    '/index.php'=> 'Home',
-    '/about.php'=> 'About Me',
-    '/work.php' => 'My Work',
-    '/contact.php'=>'How to reach me'
+$menuitems = [
+    'index.php' => 'Home',
+    'about.php' => 'About Me',
+    'work.php' => 'My Work',
+    'contact.php' => 'How to reach me'
 ];
 //$content=basename($_SERVER['SCRIPT_FILENAME']);
 ?>

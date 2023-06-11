@@ -1,15 +1,22 @@
-<?php require_once __DIR__.'/../config/variables.php';?>
+<?php require_once __DIR__.'/../config/variables.php'; ?>
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
-    <?php require_once __DIR__.'/../template/head.phtml';?>
+    <?php require_once __DIR__.'/../template/head.phtml'; ?>
 </head>
 <body>
-  <?php require_once __DIR__.'/../template/menu.phtml';?>
-  <main id="<?php echo $content; ?>">
-      <?php require_once __DIR__ . '/../template/content/' . $content . '.phtml'; ?>
-  </main>
-  <?php require_once __DIR__.'/../template/footer.phtml';?>
+<?php require_once __DIR__.'/../template/menu.phtml'; ?>
+<main id="<?php echo $content; ?>">
+    <?php
+    $contentFile = __DIR__ . '/../template/content/' . $content . '.phtml';
+    if (file_exists($contentFile)) {
+        require_once $contentFile;
+    } else {
+        echo "Page content not found.";
+    }
+    ?>
+</main>
+<?php require_once __DIR__.'/../template/footer.phtml'; ?>
 </body>
 </html>
 
