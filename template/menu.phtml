@@ -12,7 +12,6 @@
             <?php foreach ($menuitems as $url => $label): ?>
                 <li class="nav-item">
                     <a href="index.php?page=<?= basename($url, '.php') ?>" class="nav-link <?= getCurrentPageId($url) ?>"><?= $label ?></a>
-<!--                    <a href="--><?php //= $url ?><!--" class="nav-link" --><?php //= getCurrentPageId($url) ?><!--">--><?php //= $label ?><!--</a>-->
                 </li>
             <?php endforeach; ?>
         </ul>

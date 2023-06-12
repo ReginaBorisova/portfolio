@@ -8,16 +8,16 @@ $variablesFile = __DIR__ . '/../config/variables_' . $basename;
 $title = 'Middle Web Dev';
 $copyright='Copyright';
 $page_titles = [
-    'index.php' => 'My portfolio',
-    'work.php' => 'View my Work',
-    'about.php' => 'About Me',
-    'contact.php'=>'Contact Me'
+    'index' => 'My portfolio',
+    'work' => 'View my Work',
+    'about' => 'About Me',
+    'contact' => 'Contact Me'
 ];
+
 $menuitems = [
-    'index.php' => 'Home',
-    'about.php' => 'About Me',
-    'work.php' => 'My Work',
-    'contact.php' => 'How to reach me'
+    'index' => 'Home',
+    'about' => 'About Me',
+    'work' => 'My Work',
+    'contact' => 'How to reach me'
 ];
-//$content=basename($_SERVER['SCRIPT_FILENAME']);
 ?>

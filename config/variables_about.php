@@ -10,5 +10,4 @@ $firstCompany = 'Place for my 1st WebDevJob';
 $secondCompany = 'Place for my 2nd WebDevJob';
 $thirdCompany = 'Place for my 3d WebDevJob';
 $title = 'Middle Web Dev';
-
 ?>
