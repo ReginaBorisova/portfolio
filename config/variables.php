@@ -1,10 +1,10 @@
 <?php
 $filename = $_SERVER['SCRIPT_FILENAME'];
 $basename = basename($filename);
-$variablesFile = __DIR__ . '/../config/variables_' . $basename;
-  if (file_exists($variablesFile)) {
+$variablesFile = __DIR__ . '/variables_' . $basename;
+if (file_exists($variablesFile)) {
     require_once $variablesFile;
-  }
+}
 $title = 'Middle Web Dev';
 $copyright='Copyright';
 $page_titles = [

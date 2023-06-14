@@ -1,5 +1,10 @@
-<?php require_once __DIR__.'/../config/variables.php'; ?>
-<?php require_once __DIR__ . "/../config/variables_" . $content . ".php"; ?>
+<?php
+require_once __DIR__ . '/../config/variables.php';
+$variablesFile = __DIR__ . '/../config/variables_' . $content . '.php';
+if (file_exists($variablesFile)) {
+    require_once $variablesFile;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,4 +25,3 @@
 <?php require_once __DIR__.'/../template/footer.phtml'; ?>
 </body>
 </html>
-
