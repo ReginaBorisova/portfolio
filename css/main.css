@@ -235,7 +235,7 @@ body {
     width: 100%;
     min-height: 0;
   }
-  .menu-nav {
+    .menu-nav {
     height: 75vh;
     transform: translate3d(-100%,0,0);
     font-size: 24px;

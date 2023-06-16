@@ -42,4 +42,5 @@ function tellTitle(int $titleType): string
     }
     return $title . ' Web Developer';
 }
+?>
 
