@@ -9,10 +9,10 @@
             <a href="#!">
                 <img src="<?= $project['img'] ?>" class="project-img" alt="Project Pic" id="project">
             </a>
-            <a href="#" class="btn-light">
+            <a href="<?= $project['name_link'] ?>" class="btn-light">
                 <i class="fas fa-eye"></i><?= $project['project'] ?>
             </a>
-            <a href="<?=$project['github']?>" class="btn-dark">
+            <a href="<?= $project['github'] ?>" class="btn-dark">
                 <i class="fab fa-github"></i>
             </a>
         </div>
