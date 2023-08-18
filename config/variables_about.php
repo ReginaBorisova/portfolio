@@ -2,13 +2,14 @@
 /**
  * The file contains variables used on the about.phtml file.
  *
- * @package   Portfolio
- * @subpackage  AboutVariables
- * @author    Regina Borisova
- * @link      https://github.com/ReginaBorisova/portfolio
- * @category  Web Development
- * @license   MIT
- * @version   1.0
+ * @category   Web_Development_<regina.salikhova93@gmail.com>
+ * @link       https://github.com/ReginaBorisova/portfolio
+ * @package    Portfolio
+ * @subpackage WorkVariables
+ * @author     Regina_Borisova <regina.salikhova93@gmail.com>
+ * @license    https://account.jetbrains.com/licenses PHPStorm
+ *
+ * @version CVS: <cvs_id>
  */
 $bio = 'BIO';
 $about = 'About';

@@ -2,13 +2,14 @@
 /**
  * The file contains variables for the portfolio project.
  *
- * @package     Portfolio
- * @subpackage  Variables
- * @link        https://github.com/ReginaBorisova/portfolio
- * @author      Regina Borisova <your-email@example.com>
- * @category    Web Development
- * @license     MIT
- * @version     1.0
+ * @category   Web_Development_<regina.salikhova93@gmail.com>
+ * @link       https://github.com/ReginaBorisova/portfolio
+ * @package    Portfolio
+ * @subpackage WorkVariables
+ * @author     Regina_Borisova <regina.salikhova93@gmail.com>
+ * @license    https://account.jetbrains.com/licenses PHPStorm
+ *
+ * @version CVS: <cvs_id>
  */
 $filename = $_SERVER['SCRIPT_FILENAME'];
 $basename = basename($filename);
