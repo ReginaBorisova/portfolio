@@ -2,10 +2,14 @@
 /**
  * The file contains variables used on index.phtml file.
  *
- * @package    Portfolio
- * @subpackage AboutVariables
- * @author     Regina Borisova
+ * @category   Web_Development_<regina.salikhova93@gmail.com>
  * @link       https://github.com/ReginaBorisova/portfolio
+ * @package    Portfolio
+ * @subpackage WorkVariables
+ * @author     Regina_Borisova <regina.salikhova93@gmail.com>
+ * @license    https://account.jetbrains.com/licenses PHPStorm
+ *
+ * @version CVS: <cvs_id>
  */
 $title = 'Middle Web Dev';
 $name = 'Regina';

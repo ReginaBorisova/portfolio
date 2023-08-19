@@ -1,11 +1,14 @@
 /**
  * The file contains JavaScript code for the portfolio project.
  *
- * @package     Portfolio
- * @subpackage  JavaScript
- * @category    Web Development
- * @author      Regina Borisova
- * @link        https://github.com/ReginaBorisova/portfolio
+ * @category   Web_Development_<regina.salikhova93@gmail.com>
+ * @link       https://github.com/ReginaBorisova/portfolio
+ * @package    Portfolio
+ * @subpackage WorkVariables
+ * @author     Regina_Borisova <regina.salikhova93@gmail.com>
+ * @license    https://account.jetbrains.com/licenses PHPStorm
+ *
+ * @version CVS: <cvs_id>
  */
 /* Select DOM Items I want overlay */
 const menuBtn = document.querySelector('.menu-btn');

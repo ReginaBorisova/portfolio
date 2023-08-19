@@ -2,13 +2,14 @@
 /**
  * The file contains variables used on the contact.phtml file.
  *
- * @package    Portfolio
- * @subpackage ContactVariables
- * @author     Regina Borisova
+ * @category   Web_Development_<regina.salikhova93@gmail.com>
  * @link       https://github.com/ReginaBorisova/portfolio
- * @category   Web Development
- * @license    MIT
- * @version    1.0
+ * @package    Portfolio
+ * @subpackage WorkVariables
+ * @author     Regina_Borisova <regina.salikhova93@gmail.com>
+ * @license    https://account.jetbrains.com/licenses PHPStorm
+ *
+ * @version CVS: <cvs_id>
  */
 $contact = 'Contact';
 $me = 'Me';

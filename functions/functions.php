@@ -1,5 +1,17 @@
 <?php
 /**
+ * The file contains functions for the portfolio project.
+ *
+ * @category   Web_Development_<regina.salikhova93@gmail.com>
+ * @link       https://github.com/ReginaBorisova/portfolio
+ * @package    Portfolio
+ * @subpackage WorkVariables
+ * @author     Regina_Borisova <regina.salikhova93@gmail.com>
+ * @license    https://account.jetbrains.com/licenses PHPStorm
+ *
+ * @version CVS: <cvs_id>
+ */
+/**
  * Gets the page title based on the script filename.
  *
  * @param array $page_titles An array of page titles.

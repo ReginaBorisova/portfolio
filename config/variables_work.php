@@ -1,14 +1,16 @@
 <?php
+
 /**
  * The file contains variables used on work.phtml file.
  *
- * @package     Portfolio
- * @subpackage  WorkVariables
- * @link        https://github.com/ReginaBorisova/portfolio
- * @author      Regina Borisova <regina.borisova93@gmail.com>
- * @category    Web Development
- * @license     MIT
- * @version     1.0
+ * @category   Web_Development_<regina.salikhova93@gmail.com>
+ * @link       https://github.com/ReginaBorisova/portfolio
+ * @package    Portfolio
+ * @subpackage WorkVariables
+ * @author     Regina_Borisova <regina.salikhova93@gmail.com>
+ * @license    https://account.jetbrains.com/licenses PHPStorm
+ *
+ * @version CVS: <cvs_id>
  */
 $my = 'My';
 $work = 'Work';
